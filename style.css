@@ -1,27 +1,79 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #8b5e3c;
-  color: #333;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-header {
-  background-color: #b38562;
-  color: white;
+body{
+background-color: rgb(130, 130, 199);
+}
+.logo h2{
+  float: left;
+  color: yellow;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 10px;
+  font-size: 40px;
+}
+.navlinks{
+  float: right;
+  padding-top: 10px;
+  padding: 10px;
+}
+.navlinks a:hover{
+  color: rgb(214, 107, 107);
+}
+.navlinks a{
   padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.navbar{
+  width: 100%;
+  height: 50px;
+  background-color:rgb(60, 60, 203);
 }
 
-main {
-  margin: 40px;
-}
 
-main img {
-  width: 300px;
-  border-radius: 8px;
-}
-
-p {
+.hero button {
+  padding: 10px 25px;
   font-size: 18px;
-  margin-top: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
 }
+.hero button:hover{
+  background-color:rgb(93, 93, 206);
+}
+footer{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  list-style: none;
+  background-color: blue;
+  margin-top: 250px;
+  width: 100%;
+  position: fixed;
+  height: 100px;
+  
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+   color:white;
+   margin-top: 30px;
+}
+.link li a{
+  text-decoration: none;
+  padding-left: 400px;
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+}
+.link a{
+  padding-left: 1000px;
+  color: white;
+}
+
 
